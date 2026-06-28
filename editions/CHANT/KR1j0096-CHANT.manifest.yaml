@@ -1,0 +1,34 @@
+canonical_identifier: bkk:krp/KR1j0096/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR1j0096/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 爾雅謝氏音一卷
+  identifiers:
+    krp: KR1j0096
+  tags:
+    kr-categories: KR1j
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR1j0096.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR1j0096_001-CHANT.yaml, hash: 'sha256:219ed6528433dd5408304ca23a3e7629321e1d78368dfc77065216ff8b55f9cd'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR1j0096_001-CHANT.markers.yaml, hash: 'sha256:be58fbfb1f6a43514362f514cc0ac6bc3ac6b23a8ee1535cad293866dc97033d'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR1j0096_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 1280
+  label: 爾雅謝氏音
+  type: section
+  level: 1
+hash: sha256:90b970adfc721ff9a32902457ba8c74c9307595f1ffd01b59cf7ea56596d8bc5
